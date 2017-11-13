@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Cryptoclear
+Comment=Cryptoclear P2P Cryptocurrency
+Exec=/usr/bin/cryptoclear-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/cryptoclear;
+Categories=Office;
+Name[en_US]=cryptoclear-qt.desktop

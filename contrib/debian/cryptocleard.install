@@ -1,0 +1,2 @@
+debian/bin/cryptocleard usr/bin
+src/cryptocleard usr/lib/cryptoclear

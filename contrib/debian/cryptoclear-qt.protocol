@@ -1,0 +1,11 @@
+[Protocol]
+exec=cryptoclear-qt '%u'
+protocol=cryptoclear
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
