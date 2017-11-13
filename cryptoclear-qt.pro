@@ -483,7 +483,7 @@ isEmpty(BOOST_THREAD_LIB_SUFFIX) {
 }
 
 isEmpty(BDB_LIB_PATH) {
-    macx:BDB_LIB_PATH = /usr/local/Cellar/berkeley-db4/4.8.30/lib
+    macx:BDB_LIB_PATH = /usr/local/Cellar/berkeley-db@4/4.8.30/lib
 }
 
 isEmpty(BDB_LIB_SUFFIX) {
@@ -491,7 +491,7 @@ isEmpty(BDB_LIB_SUFFIX) {
 }
 
 isEmpty(BDB_INCLUDE_PATH) {
-    macx:BDB_INCLUDE_PATH = /usr/local/Cellar/berkeley-db4/4.8.30/include
+    macx:BDB_INCLUDE_PATH = /usr/local/Cellar/berkeley-db@4/4.8.30/include
 }
 
 isEmpty(BOOST_LIB_PATH) {
@@ -511,11 +511,11 @@ isEmpty(QRENCODE_INCLUDE_PATH) {
 }
 
 isEmpty(OPENSSL_LIB_PATH) {
-    macx:OPENSSL_LIB_PATH = /usr/local/Cellar/openssl101/1.0.1u/lib
+    macx:OPENSSL_LIB_PATH = /Users/mammix2/Desktop/deps/openssl-1.0.1u
 }
 
 isEmpty(OPENSSL_INCLUDE_PATH) {
-    macx:OPENSSL_INCLUDE_PATH = /usr/local/Cellar/openssl101/1.0.1u/include
+    macx:OPENSSL_INCLUDE_PATH = /Users/mammix2/Desktop/deps/openssl-1.0.1u/include
 }
 
 
@@ -536,8 +536,6 @@ windows:!contains(MINGW_THREAD_BUGFIX, 0) {
 !windows:!macx {
     DEFINES += LINUX
     LIBS += -lrt
-    INCLUDEPATH += src/leveldb/include src/leveldb/helpers
-    LIBS += $$PWD/src/leveldb/libleveldb.a $$PWD/src/leveldb/libmemenv.a
 }
 
 macx: {

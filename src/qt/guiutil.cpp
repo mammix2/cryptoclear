@@ -503,7 +503,7 @@ void SetThemeQSS(QApplication& app)
         "QScrollArea#scrollArea { background-color: rgba(0,0,0,0);}"
         "QHeaderView::section { font-family: Arial,Gadget,sans-serif;  padding: 1px; background: rgb(78,83,91); color: rgb(255,255,255); }"
         "QHeaderView { font-family: Arial,Gadget,sans-serif;  padding: 1px; background: rgb(78,83,91);}"
-        "QToolBar       {background-color: rgba(0,0,0,0); }"
+        "QToolBar       {background: rgb(255,255,255); border: 1px solid white;}"
         "QWidget#transactionsPage { background-color: rgba(0,0,0,0);}"
         "QWidget#scrollAreaWidgetContents { background-color: rgba(0,0,0,0);}"
         "QDialog#EditAddressDialog, QDialog#SignVerifyMessageDialog, QDialog#AskPassphraseDialog, QDialog#CoinControlDialog, QDialog#TransactionDescDialog, QDialog#AboutDialog, QDialog#OptionsDialog, QDialog#QRCodeDialog, QDialog#RPCConsole, QMessageBox  {color: rgb(255,255,255);  }"
