@@ -165,16 +165,11 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     labelStakingIcon = new QLabel();
     labelConnectionsIcon = new QLabel();
     labelBlocksIcon = new QLabel();
-    //frameBlocksLayout->addStretch();
     frameBlocksLayout->addWidget(labelEncryptionIcon);
-    //frameBlocksLayout->addStretch();
     frameBlocksLayout->addWidget(labelStakingIcon);
-    //frameBlocksLayout->addStretch();
     frameBlocksLayout->addWidget(labelConnectionsIcon);
-    //frameBlocksLayout->addStretch();
     frameBlocksLayout->addWidget(labelBlocksIcon);
-    //frameBlocksLayout->addStretch();
-    toolbar->addWidget(frameBlocks);
+
 
     if (GetBoolArg("-staking", true))
     {
@@ -200,10 +195,9 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
 
     statusBar()->addWidget(progressBarLabel);
     statusBar()->addWidget(progressBar);
+    statusBar()->addPermanentWidget(frameBlocks);
 
-//here    statusBar()->setStyleSheet("#statusBar { color: #ffffff; background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 0.6, stop: 0 #101010, stop: 1 #404040);  }");
-    
-	syncIconMovie = new QMovie(":/movies/update_spinner", "mng", this);
+    syncIconMovie = new QMovie(":/movies/update_spinner", "mng", this);
 
 
     // Clicking on a transaction on the overview page simply sends you to transaction history page

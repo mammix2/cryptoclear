@@ -30,7 +30,6 @@ public:
         DisplayUnit,       // BitcoinUnits::Unit
         Language,          // QString
         CoinControlFeatures, // bool
-        UseBlackTheme,     // bool
         OptionIDRowCount,
     };
 

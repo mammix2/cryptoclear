@@ -97,7 +97,7 @@
              <number>12</number>
             </property>
             <item row="0" column="0">
-             <widget class="QLabel" name="label">
+             <widget class="QLabel" name="overviewpage_spendable_label">
               <property name="text">
                <string>Spendable:</string>
               </property>
@@ -129,7 +129,7 @@
              </widget>
             </item>
             <item row="1" column="0">
-             <widget class="QLabel" name="label_6">
+             <widget class="QLabel" name="overviewpage_stake_label">
               <property name="text">
                <string>Stake:</string>
               </property>
@@ -161,7 +161,7 @@
              </widget>
             </item>
             <item row="2" column="0">
-             <widget class="QLabel" name="label_3">
+             <widget class="QLabel" name="overviewpage_unconfirmed_label">
               <property name="text">
                <string>Unconfirmed:</string>
               </property>
@@ -193,7 +193,7 @@
              </widget>
             </item>
             <item row="3" column="0">
-             <widget class="QLabel" name="labelImmatureText">
+             <widget class="QLabel" name="overviewpage_immature_label">
               <property name="text">
                <string>Immature:</string>
               </property>
@@ -229,7 +229,7 @@
              </widget>
             </item>
             <item row="5" column="0">
-             <widget class="QLabel" name="labelTotalText">
+             <widget class="QLabel" name="overviewpage_total_label">
               <property name="text">
                <string>Total:</string>
               </property>
