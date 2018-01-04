@@ -108,6 +108,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0xc4db2593f7a96c3cba7ca5bc183599dbdce715221844c1cbc768e826321211b0"));
 
         vSeeds.push_back(CDNSSeedData("cclr001.ffptech.com",  "cclr001.ffptech.com"));
+        vSeeds.push_back(CDNSSeedData("cclr2.ffptech.com",  "cclr2.ffptech.com"));
         vSeeds.push_back(CDNSSeedData("node01.cryptoclear.com",  "node01.cryptoclear.com"));
         vSeeds.push_back(CDNSSeedData("node02.cryptoclear.com",  "node02.cryptoclear.com"));
         vSeeds.push_back(CDNSSeedData("node03.cryptoclear.com",  "node03.cryptoclear.com"));

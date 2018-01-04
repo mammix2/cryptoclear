@@ -2,7 +2,7 @@ TEMPLATE = app
 DEFINES += fName1 fName2
 fName1 = "cryptoclear"
 macx:TARGET = "cryptoclear-Qt"
-VERSION = 1.0.0.2
+VERSION = 1.0.0.3
 QMAKE_TARGET_BUNDLE_PREFIX = co.cryptoclear
 contains(QT_ARCH, i386) {
     fName2 = "-qt-x86-v"
