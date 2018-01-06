@@ -109,6 +109,7 @@ public:
 
         vSeeds.push_back(CDNSSeedData("cclr001.ffptech.com",  "cclr001.ffptech.com"));
         vSeeds.push_back(CDNSSeedData("cclr2.ffptech.com",  "cclr2.ffptech.com"));
+        vSeeds.push_back(CDNSSeedData("cclrtest.ffptech.com", "cclrtest.ffptech.com"));
         vSeeds.push_back(CDNSSeedData("node01.cryptoclear.com",  "node01.cryptoclear.com"));
         vSeeds.push_back(CDNSSeedData("node02.cryptoclear.com",  "node02.cryptoclear.com"));
         vSeeds.push_back(CDNSSeedData("node03.cryptoclear.com",  "node03.cryptoclear.com"));
